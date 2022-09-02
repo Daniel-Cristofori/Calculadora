@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+  <html lang="pt" >
+    <head>
+      <meta charset="UTF-8">
+
+      <title>calculadora</title>
+
+      <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body>
+      <body>
+
+        <div class="container1">
+
+          <div class="container2">
+
+            <div  class ="painel">
+
+              <input  type ="text" id ="painel" placeholder ="0" disabled></input>
+
+            </div>
+
+
+
+            <div class="botoes">
+
+              <div class="linha2">
+
+                <button id="del" onclick="deletar()">del</button>
+
+                <button class="/" onclick="adicionarNumero(' / ')">/</button>
+
+                <button id="excluir" onclick="excluir()">⌫</button>
+    
+              </div>
+
+              <div class="linha2">
+      
+                <button class="9"  onclick="adicionarNumero('9')">9</button>
+    
+                <button class="8" onclick="adicionarNumero('8')">8</button>
+  
+                <button class="7" onclick="adicionarNumero('7')">7</button>
+
+                <button class="(-)" onclick="adicionarNumero(' - ')">-</button>
+    
+              </div>
+
+              <div class="linha3">
+      
+                <button class="6" onclick="adicionarNumero('6')">6</button>
+    
+                <button class="5"onclick="adicionarNumero('5')">5</button>
+      
+                <button class="4" onclick="adicionarNumero('4')">4</button>
+
+                <button class="(+)" onclick="adicionarNumero(' + ')">+</button>
+      
+              </div>
+
+              <div class="linha4">
+    
+                <button class="3" onclick="adicionarNumero('3')">3</button>
+      
+                <button class="2" onclick="adicionarNumero('2')">2</button>
+      
+                <button class="1" onclick="adicionarNumero('1')">1</button>
+
+                <button class="(*)" onclick="adicionarNumero(' * ')">x</button>
+        
+              </div>
+
+              <div class="linha5">
+
+                <button class="(.)" onclick="adicionarNumero('.')">,</button>
+
+                <button class="0" onclick="adicionarNumero('0')">0</button>
+
+                <button id="resultado" onclick="calculo()">=</button>
+
+              </div>
+            </div>
+          </div>
+        
+          <div class="Calculos">
+
+            <h3>Cálculos:</h3>
+            <p id="campoCalculos"></p>
+
+          </div>
+
+        </div>
+    
+
+      </body>
+        
+      <script  src="./script.js"></script>
+      
+    </body>
+  </html>
+
+  

@@ -1,0 +1,91 @@
+@import url("https://font.googleapis.com/css2? family=Roboto:wght@400;700&display=swap");
+
+
+body {
+    font-family: "Roboto", sans-serif;
+
+  }
+
+
+
+.container1 {
+    background: #505050;
+    color: #000000;
+    margin: 128px 512px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    height: 467px;
+    box-shadow: 6px 6px 6px #000000;
+    position:relative;
+    
+  }
+
+
+
+.container2 {
+  left: 2px;
+  position:absolute;
+  border: 3px solid black;
+
+}
+
+
+.container2 input {
+  text-align: right;
+  width: 286px;
+  height: 80px;
+  font-size: 30px;
+
+}
+
+
+
+.botoes button {
+    width: 70px;
+    height: 75px;
+    font-size: 30px;
+    background: #828486;
+    padding: 0px;
+   
+}
+
+
+#del{
+  width: 145px;
+  
+}
+
+
+#excluir{
+  font-size: 25px;
+  
+}
+
+
+#resultado{
+  width: 144px;
+  
+}
+
+
+.botoes button:hover {
+  color: #fff;
+  background-color: #2a3138;
+  
+}  
+
+
+
+.campoCalculos{
+  text-align: left;
+  color:#ffffff;
+  display: inline-block;
+  right: 5px;
+  top:-6px;
+  width:max-content;
+  position:absolute;
+
+}
+
